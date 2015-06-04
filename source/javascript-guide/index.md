@@ -1,8 +1,9 @@
-title: "Javascriptガイドライン"
-date: 2015-05-13 15:40:35
+title: "Javascript"
+subtitle: "Javascriptの論理や思考をまとめています"
+description: "Javscriptの「コーディング設計＆思考」「基礎と思考」「設計と思考」などの考えを中心にまとめています。"
 comments: false
 ---
-Javascriptのガイドラインです。
+Javascriptの論理や思考をまとめています。
 基本はJavascriptですが一部「**[jQuery](https://jquery.com/)**」& 「**[undescoreJs](http://underscorejs.org/)**」などの記述もあります。
 コーディングルール・命名規則などを記述していきます。
 
@@ -29,13 +30,21 @@ Javascriptはしっかり設計しないと動作が遅くなってしまうた�
 
 <!--１つのコードをベースに書いていく。-->
 
-- [Javascriptの設計](/javascript-guide/structural.html)
+- [Javascriptの設計＆思考](/javascript-guide/structural.html)
 
 ##[Javascriptのパフォーマンス＆テスト](/javascript-guide/performance.html)
 
 JavascriptはDOM(Document Object Model)などを操作したり、DOM(Document Object Model)を生成したりするとコードが増えたりパーフォマンスが下がります。
 <!--特に昨今ではスマートフォンなどの小型端末が普及しよりパーフォーマンスが重視されています。-->
 パーフォーマンスを意識したコードやファイルの読み込みやより早いコードを書くためのテスト方法について書いています。
-platoやjasmin＆karmaを使用したテスト
+[plato](http://jsoverson.github.io/plato/examples/jquery/)や[jasmin](http://jasmine.github.io/)＆[karma](http://karma-runner.github.io/0.12/index.html)を使用したテスト。
+テストコードの重要性について書いています。
 
 - [Javascriptのパフォーマンス＆テスト](/javascript-guide/performance.html)
+
+##[Javascriptフレームワーク](/javascript-guide/framework.html)
+
+Javascriptフレームワークについて書いています。
+「ReactJs」や「AngulerJs」等フレームワークにの使用方法についてまとめています。
+
+- [Javascriptのフレームワーク](/javascript-guide/framework.html)

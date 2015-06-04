@@ -1,5 +1,7 @@
 title: "Javascriptの基本"
-date: 2015-05-15 16:47:36
+subtitle: ""
+description: ""
+comments: false
 ---
 難しくいうと、
 > Javascriptはインタプリタ言語です。

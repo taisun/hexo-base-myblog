@@ -34,10 +34,6 @@ HTMLのマークアップ思考＆設計についてまとめました。
 
 - [アクセシビリティについて](/html-guide/accessibility.html)
 
-##HTMLテスト
-[PhantomJS](http://phantomjs.org/)や[Nightmare](http://www.nightmarejs.org/)を使用した。HTMLのテスト自動化について書いていきます。
-
-- [HTMLテスト](/html-guide/test.html)
 <!-- ##パフォーマンスについて
 ここではHTMLのパフォーマンスについて中心書いております。
 
